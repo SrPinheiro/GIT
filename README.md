@@ -291,6 +291,14 @@ Neste caso, o ponteiro principal **HEAD** esta apontando para o branch chamado b
 ##### Resolver merge entre os branches
 
 	git merge bug-123
+
+#### Deletar uma branch local
+
+	git branch -D nome-do-branch
+
+#### Deletar uma branch remota
+	
+	git branch -dr origin/nome-do-branch
 	
 Para realizar o *merge*, é necessário estar no branch que deverá receber as alterações. O *merge* pode automático ou manual. O merge automático será feito em arquivos textos que não sofreram alterações nas mesmas linhas, já o merge manual será feito em arquivos textos que sofreram alterações nas mesmas linhas.
 
