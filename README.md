@@ -115,6 +115,9 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 #### Copiar diretorios de uma branch remota para outra
 	git checkout nome_da_branch_recebedora
 	git checkout origin/nome_da_branch_remetente nome_do_diretorio/
+	
+#### Renomear uma branch
+	git branch -m nome-antigo novo-nome
 
 ### Visualizar histórico
 
