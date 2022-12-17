@@ -141,6 +141,10 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 
 	git log --pretty=format:"%h - %an, %ar : %s"
 	
+### Voltar atras com algum commit (operação de risco)
+
+	git reset --hard "Hash ou nome do commit"
+	
 * %h: Abreviação do hash;
 * %an: Nome do autor;
 * %ar: Data;
