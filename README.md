@@ -118,6 +118,9 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 	
 #### Renomear uma branch
 	git branch -m nome-antigo novo-nome
+	
+#### Renomear o ultimo commit
+	git commit --amend
 
 ### Visualizar histórico
 
