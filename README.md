@@ -121,6 +121,7 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 	
 #### Renomear o ultimo commit
 	git commit --amend
+	
 
 ### Visualizar histórico
 
@@ -293,6 +294,9 @@ Neste caso, o ponteiro principal **HEAD** esta apontando para o branch chamado b
 ##### Criar um novo branch e trocar 
 
 	git checkout -b bug-456
+	
+#### Clonar uma branch
+	git clone --branch <nome da branch> <link do repositorio>
 	
 ##### Voltar para o branch principal (master)
 
